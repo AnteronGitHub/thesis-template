@@ -1,5 +1,8 @@
 .DS_Store
 
+# Vim swap files
+*.swp
+
 HY-CS-main.aux
 HY-CS-main.bbl
 HY-CS-main.bcf
