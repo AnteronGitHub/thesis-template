@@ -1,1 +1,6 @@
 \chapter{Discussion\label{discussion}}
+
+While MapReduce framework provides data partitioning, distribution and some level of fault-tolerance, it does not
+provide more detailed optimizations. MapReduce is commonly used in other systems, such as Apache Hadoop which includes
+an optimised distributed file system, called HDFS. RDDs provide less overhead for data reuse,
+at the cost of a more opinionated interface.

@@ -1,0 +1,16 @@
+\chapter{State of the Art\label{stateoftheart}}
+
+Similar solutions exist.
+
+\section{Dryad}
+Dryad was a Microsoft project which developed systems for distributed data-parallel execution
+engines. Their prototype used dataflow graphs presentation for computations. Instead of application-level datasets, the
+system used shared memory FIFOs. While Spark was not evaluated against this prototype, the Dryad project has since been
+discontinued, and their focus has been shifted towards Apache Hadoop.
+
+\section{Pregel}
+Pregel is another cluster implementation. It also uses a graph-based representation for
+computations. In contrast to Spark and Dryad, Pregel focuses on processing of graph-represented data. Its is more
+restrictive than RDDs, which can make some applications simpler to implement, but it trades off generality. However,
+graph based models are widely used, and they were also one of the motivations for MapReduce framework.
+

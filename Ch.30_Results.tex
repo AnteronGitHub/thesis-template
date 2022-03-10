@@ -1,1 +1,9 @@
-\chapter{Results\label{results}}
+\chapter{Evaluation\label{results}}
+
+The performance and fault-tolerance of Spark were evaluated in Amazon cloud with system tests and application
+benchmarks. Spark showed up to 20 times performance improvements for iterative machine learning application when
+compared to regular Apache Hadoop and an in-memory HDFS Hadoop implementations. Additionally Spark showed a 2.4
+time speedup for PageRank algorithm compared to regular Hadoop. Spark was able to recover from a single node failure
+during a 10 iteration k-means clustering with 50 percent iteration time increase during the node failure. Spark also
+showed graceful performance degradation as the amount of available memory for a logistic regression computation was
+downscaled.

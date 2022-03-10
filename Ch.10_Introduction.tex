@@ -1,2 +1,10 @@
 \chapter{Introduction\label{intro}}
 
+With frameworks like MapReduce being widely adapted for big data analytics, there is a need for performant cluster
+implementations. Many systems are built for specific programming patterns, and lack generality. Basic cluster
+implementations store intermediate results in files. Zaharia et al. propose Spark as a
+distributed in-memory cluster for data analytics. Spark is motivated by iterative algorithms and interactive querying.
+Spark uses in-memory storage for intermediate computation results. Spark programs are submitted as applications for
+Mesos cluster manager, which provisions infrastructure.
+
+In this thesis, we will explore Spark cluster. In Chapter \ref{ch:rdd} we will discuss the Spark programming model.
