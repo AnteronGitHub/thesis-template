@@ -3,6 +3,16 @@
 # Vim swap files
 *.swp
 
+# LaTeX temporary files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.pdf
+*.toc
+*.bcf
+
 HY-CS-main.aux
 HY-CS-main.bbl
 HY-CS-main.bcf
